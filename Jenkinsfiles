@@ -1,0 +1,17 @@
+node
+{
+    stage("clean"){
+        https://github.com/hari698/javaaws2.git
+        sh "clean"
+    }
+    stage("compilet"){
+        sh "compile"
+    }
+    stage("test"){
+        sh "test"
+    }
+    stage("package"){
+        sh "package"
+    }
+    
+}
